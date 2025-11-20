@@ -48,20 +48,18 @@ proxies:
         Host: biz.bumiayuvpn.web.id
     udp: true
   - name: AKUN3
-    server: quiz.int.vidio.com
+    type: trojan
+    server: support.zoom.us
     port: 443
-    type: vless
-    uuid: aae98731-898a-4cd3-8c7f-d09af2387d63
-    cipher: auto
-    tls: true
+    password: 486b2987-dcce-4fdc-8b4a-f9d0a52d4ae0
+    udp: true
+    sni: biz.bumiayuvpn.web.id
     skip-cert-verify: true
-    servername: id2vless.ipservers.xyz
     network: ws
     ws-opts:
-      path: /jagoanssh
+      path: /trojan-ws
       headers:
-        Host: id2vless.ipservers.xyz
-    udp: true
+        Host: biz.bumiayuvpn.web.id
 
 proxy-groups:
   - name: ID-X
@@ -149,5 +147,6 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 
 
