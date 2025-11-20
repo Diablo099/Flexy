@@ -36,7 +36,7 @@ proxies:
     server: support.zoom.us
     port: 443
     type: trojan
-    uuid: 486b2987-dcce-4fdc-8b4a-f9d0a52d4ae0
+    password: 486b2987-dcce-4fdc-8b4a-f9d0a52d4ae0
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -149,4 +149,5 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 
